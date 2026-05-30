@@ -3,159 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>FinanceHubAK</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-nav{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-padding:8px;
-}
-
-nav a:hover{
-color:#d4af37;
-}
-*{nav{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-padding:8px;
-}
-
-nav a:hover{
-color:#d4af37;
-}
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#0f0f0f;
-color:white;
-}
-
-header{
-background:black;
-padding:20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:2px solid gold;
-}
-
-.logo{<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="ebooks.html">E-Books</a>
-<a href="contact.html">Contact</a>
-<a href="login.html">Login</a>
-</nav>
-font-size:28px;
-font-weight:bold;
-color:gold;
-}
-
-nav a{
-color:white;
-margin-left:15px;
-text-decoration:none;
-}
-
-.hero{
-height:90vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.hero h1{
-font-size:48px;
-color:gold;
-}
-
-.hero p{
-margin-top:15px;
-font-size:20px;
-max-width:700px;
-}
-
-.btn{
-margin-top:25px;
-padding:12px 25px;
-background:#c1121f;
-border:none;
-color:white;
-border-radius:10px;
-font-size:18px;
-}
-
-</style>
-
-</head>
-<body>
-
-<header>
-
-<div class="logo">
-FINANCEHUBAK
-</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">E-Books</a>
-<a href="#">Competition</a>
-<a href="#">Contact</a>
-</nav>
-
-</header>
-
-<section class="hero">
-
-<h1>FINANCEHUBAK</h1>
-
-<p>
-One Platform. Unlimited Financial Learning,
-Investing & Growth.
-</p>
-
-<button class="btn">
-Start Learning
-</button>
-
-</section>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FinanceHubAK</title>
 
 <style>
@@ -172,20 +19,36 @@ color:white;
 }
 
 header{
-position:sticky;
-top:0;
 background:#111;
 padding:15px;
-display:flex;
-justify-content:space-between;
-align-items:center;
 border-bottom:2px solid #d4af37;
 }
 
 .logo{
-font-size:24px;
+font-size:28px;
 font-weight:bold;
 color:#d4af37;
+text-align:center;
+margin-bottom:15px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:8px 12px;
+border-radius:6px;
+}
+
+nav a:hover{
+background:#d4af37;
+color:black;
 }
 
 .hero{
@@ -194,7 +57,7 @@ text-align:center;
 }
 
 .hero h1{
-font-size:42px;
+font-size:40px;
 color:#d4af37;
 margin-bottom:15px;
 }
@@ -208,7 +71,7 @@ line-height:1.6;
 
 .btn{
 display:inline-block;
-margin-top:25px;
+margin-top:20px;
 padding:12px 25px;
 background:#c1121f;
 color:white;
@@ -217,7 +80,7 @@ border-radius:8px;
 }
 
 .section{
-padding:60px 20px;
+padding:50px 20px;
 text-align:center;
 }
 
@@ -231,9 +94,9 @@ border:1px solid #333;
 }
 
 footer{
+background:#111;
 padding:20px;
 text-align:center;
-background:#111;
 border-top:2px solid #d4af37;
 }
 </style>
@@ -242,37 +105,58 @@ border-top:2px solid #d4af37;
 <body>
 
 <header>
-<div class="logo">FINANCEHUBAK</div>
+
+<div class="logo">
+FINANCEHUBAK
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="ebooks.html">E-Books</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+</nav>
+
 </header>
 
 <section class="hero">
+
 <h1>FinanceHubAK</h1>
+
 <p>
 One Platform. Unlimited Financial Learning,
 Investing & Growth.
 </p>
 
-<a href="#" class="btn">Start Learning</a>
+<a href="ebooks.html" class="btn">
+Explore E-Books
+</a>
+
 </section>
 
 <section class="section">
+
 <h2>About Us</h2>
 
 <div class="card">
 FinanceHubAK is a financial education platform
-focused on investing, trading, business growth,
-wealth creation and practical knowledge.
+focused on investing, trading, wealth creation,
+business growth and practical knowledge.
 </div>
+
 </section>
 
 <section class="section">
+
 <h2>E-Book Categories</h2>
 
-<div class="card">Stock Market</div>
-<div class="card">Affiliate Marketing</div>
-<div class="card">E-Commerce</div>
-<div class="card">Digital Marketing</div>
-<div class="card">Money Mindset</div>
+<div class="card">📈 Stock Market</div>
+<div class="card">💰 Mutual Funds</div>
+<div class="card">🌐 Affiliate Marketing</div>
+<div class="card">🛒 E-Commerce</div>
+<div class="card">🏢 Real Estate</div>
+
 </section>
 
 <footer>
@@ -281,3 +165,10 @@ wealth creation and practical knowledge.
 
 </body>
 </html>
+
+
+
+
+
+
+
